@@ -1,5 +1,13 @@
 # ROMs – TrimUI Brick Pro
 
+```bash
+tar -cf - Roms | ssh root@192.168.1.10 "cd /mnt/SDCARD && tar -xf -"
+
+ssh root@192.168.1.10 "sync"
+
+ssh root@192.168.1.10 "reboot"
+```
+
 Bộ ROM đã lọc sẵn cho **TrimUI Brick Pro**. Chép nguyên thư mục `Roms/` vào gốc thẻ nhớ (SD card) là dùng được.
 
 ## Cấu trúc thư mục
