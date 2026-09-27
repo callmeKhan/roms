@@ -1,10 +1,13 @@
 # ROMs – TrimUI Brick Pro
+https://wowroms.com/en/roms/list/Playstation 
 
 ```bash
 tar -cf - Roms | ssh root@192.168.1.10 "cd /mnt/SDCARD && tar -xf -"
-
+```
+```
 ssh root@192.168.1.10 "sync"
-
+```
+```
 ssh root@192.168.1.10 "reboot"
 ```
 
