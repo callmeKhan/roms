@@ -1,6 +1,7 @@
 # ROMs – TrimUI Brick Pro
 https://wowroms.com/en/roms/list/Playstation 
-https://buildbot.libretro.com/nightly/linux/x86_64/latest/
+
+cores: https://buildbot.libretro.com/nightly/linux/x86_64/latest/
 
 ```bash
 tar -cf - Roms | ssh root@192.168.1.10 "cd /mnt/SDCARD && tar -xf -"
